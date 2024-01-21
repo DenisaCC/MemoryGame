@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Jocul de Memorie "Match the cards" - Aplicatie React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Autor
+Chelaru Denisa-Camelia, grupa 4LF301A
 
-## Available Scripts
+## Descriere
 
-In the project directory, you can run:
+Jocul de memorie este o aplicație web simplă care pune la încercare abilitățile de memorare și concentrare ale jucătorului. Scopul jocului este să găsești toate perechile de cărți identice în cel mai mic număr de mutări posibil.
 
-### `npm start`
+## Caracteristici
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Începerea jocului:** Posibilitatea de a începe un nou joc cu un singur click.
+- **Interfață grafică plăcută:** Cărți cu imagini ascunse care se întorc când sunt selectate.
+- **Contor de mișcări:** Un număr de mișcări efectuate pentru a găsi perechile de cărți.
+- **Mesaj de final:** Afișează un mesaj de felicitare când toate perechile de cărți sunt descoperite.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tehnologii folosite
 
-### `npm test`
+- **React:** Platforma principală pentru dezvoltarea aplicației web.
+- **JavaScript (JSX):** Utilizat pentru logica și afișarea dinamica a componentelor.
+- **CSS:** Stilizarea și aspectul vizual al elementelor.
+- **useState și useEffect (React hooks):** Utilizate pentru gestionarea stării și efectuarea acțiunilor în funcție de aceasta.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Configurare și Rulare
 
-### `npm run build`
+1. **Instalare:** Descărcați fișierul sursă și dezarhivați-l. Deschideți un terminal, navigați la directorul proiectului și rulați comanda `npm install` pentru a instala toate dependențele necesare.
+2. **Rulare:** Porniți aplicația cu comanda `npm start`. Deschideți un browser și accesați `http://localhost:3000` pentru a juca jocul de memorie.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cum să joci
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Faceți clic pe butonul "New Game" pentru a începe un joc nou.
+- Selectați două cărți pentru a le întoarce. Dacă acestea sunt identice, ele rămân vizibile, altfel se întorc cu fața în jos după o scurtă perioadă.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
